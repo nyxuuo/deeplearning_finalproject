@@ -93,4 +93,5 @@ Run the app by installing cloudfare & running the streamlit:
 After running the tunnel, it will show a link to access the streamlit app (usually in a format of xxx.trycloudfare.com)
 
 ## Full google drive link:
-🔗 [FINALPROJECT_DEEPLEARNING] (https://drive.google.com/drive/folders/1jcaEpzCvAloIWYjkwoNsH087PG773ei-?usp=sharing)
+🔗 [FINALPROJECT_DEEPLEARNING](https://drive.google.com/drive/folders/1jcaEpzCvAloIWYjkwoNsH087PG773ei-?usp=sharing)
+
