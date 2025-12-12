@@ -1,0 +1,20 @@
+# this gitignore is added just incase there are files/folders that exceeds limitations (large model, etc)
+
+# large model
+*.bin
+*.pt
+
+
+# model training folders
+model/*/pytorch_model.bin
+
+# python cache
+__pycache__/
+*.pyc
+
+# Google Colab checkpoints=
+.ipynb_checkpoints/
+
+# environment file
+venv/
+myenv/
