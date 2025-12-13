@@ -1,6 +1,9 @@
 # DEEP LEARNING FINAL PROJECT
 # Mental Health Text Classification using DistilBERT, BERT, and RoBERTa
 
+## Full google drive link:
+🔗 [FINALPROJECT_DEEPLEARNING](https://drive.google.com/drive/folders/1jcaEpzCvAloIWYjkwoNsH087PG773ei-?usp=sharing)
+
 This project aims to **predict mental health categories from user-written text** using three state-of-the-art Transformer models:
 
 - **DistilBERT**
@@ -33,15 +36,14 @@ This project was built to:
 ## 🧠 Model Overview
 
 ### **DistilBERT**
-- A lighter, faster version of BERT  
-- 40% smaller, 60% faster  
-- Retains 95% of BERT performance  
+- a lighter and faster version of BERT  
+- 40% smaller, 60% faster    
 - Works best for **real-time applications**
 
 ### **BERT-base**
-- Strong semantic understanding  
-- Good for complex text reasoning  
-- More computationally expensive
+- has a strong semantic understanding  
+- good for complex text reasoning  
+- more expensive (computationally)
 
 ### **RoBERTa-base**
 - Optimized BERT (longer training, dynamic masking, larger batches)  
@@ -92,6 +94,5 @@ Run the app by installing cloudfare & running the streamlit:
 
 After running the tunnel, it will show a link to access the streamlit app (usually in a format of xxx.trycloudfare.com)
 
-## Full google drive link:
-🔗 [FINALPROJECT_DEEPLEARNING](https://drive.google.com/drive/folders/1jcaEpzCvAloIWYjkwoNsH087PG773ei-?usp=sharing)
+
 
