@@ -117,7 +117,7 @@ After running the tunnel, it will show a link to access the streamlit app (usual
 
 ### **RUN ON LOCAL**
 
-###**1. CLONE REPO**
+###  **1. CLONE REPO**
 ```
 git clone https://github.com/nyxuuo/deeplearning_finalproject.git
 cd deeplearning_finalproject
