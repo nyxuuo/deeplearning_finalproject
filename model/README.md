@@ -1,5 +1,11 @@
 # Trained Models for Mental Health Text Classification
 
+---
+## !! The google drive folder for the stored model can be accessed through this link:
+[models_link](https://drive.google.com/drive/folders/1-_lgZsWNAplRe4scNaO6M1VHPd1mWBHp?usp=sharing)
+---
+
+
 This folder contains the **fine-tuned Transformer models** used in the final project:
 
 🔹 **DistilBERT** — `/distilbert_trained`  
@@ -24,16 +30,7 @@ All models were fine-tuned using the *mental_health_dataset_augmented.csv* datas
 
 Each folder contains:
 
-```
-model_name_trained/
-│── config.json
-│── tokenizer.json
-│── tokenizer_config.json
-│── vocab.txt / merges.txt (depending on model)
-│── pytorch_model.bin   (model weights)
-```
-
-**Example:**
+**DistilBERT**
 
 ```
 distilbert_trained/
@@ -41,7 +38,35 @@ distilbert_trained/
 │── tokenizer.json
 │── tokenizer_config.json
 │── vocab.txt
-│── pytorch_model.bin
+│── special_tokens_map.json
+│── model.safetensors
+
+```
+
+**BERT**
+
+```
+bert_trained/
+│── config.json
+│── tokenizer.json
+│── tokenizer_config.json
+│── vocab.txt
+│── special_tokens_map.json
+│── model.safetensors
+
+```
+
+**RoBERTA**
+
+```
+roberta_trained/
+│── config.json
+│── tokenizer.json
+│── tokenizer_config.json
+│── vocab.txt
+│── special_tokens_map.json
+│── model.safetensors
+
 ```
 
 ## > How to Load These Models
@@ -60,26 +85,12 @@ model = AutoModelForSequenceClassification.from_pretrained(model_path)
 model.eval()
 ```
 
----
-
-## > How to Use the Model for Prediction
-
-```python
-text = "I feel overwhelmed and sad."
-
-inputs = tokenizer(text, return_tensors="pt", truncation=True, padding=True)
-
-with torch.no_grad():
-    logits = model(**inputs).logits
-    pred = torch.argmax(logits, dim=1).item()
-
-print("Predicted label:", pred)
 ```
 ## ⚠️ Notes
 
 - These models were **fine-tuned on Colab** and saved into Google Drive.
-- There is **no `.pt` file** because models were saved using the HuggingFace format.
 - Works with both **CPU** and **GPU**.
+- These model were fully run in google colab
 
 ---
 
@@ -94,6 +105,3 @@ These models are fine-tuned versions of:
 Original models from 👉 https://huggingface.co
 
 ---
-
-## The google drive folder for the stored model can be accessed through this link:
-[models_link](https://drive.google.com/drive/folders/1-_lgZsWNAplRe4scNaO6M1VHPd1mWBHp?usp=sharing)
