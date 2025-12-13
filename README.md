@@ -126,11 +126,22 @@ cd deeplearning_finalproject
 or clone using Github Desktop
 
 ### **2. Make Virtual Env and Install dependencies**
+First, make the environment:
+```
+python -m venv venv
+venv\Scripts\activate
+
+```
+then install dependencies
 ```
 pip install streamlit torch transformers streamlit pandas numpy skicit-learn matplotlib seaborn tqdm
 ```
 
 or a way more recommended way is to install from file: **[requirements.txt](requirements.txt)**
+if you use **requirements.txt:**
+```
+pip install -r requirements.txt
+```
 
 ## **3. Download MODEL from Google Drive**
 [Click here to download the model](https://drive.google.com/drive/folders/1-_lgZsWNAplRe4scNaO6M1VHPd1mWBHp?usp=sharing)
