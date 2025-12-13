@@ -181,6 +181,12 @@ streamlit run app/app.py
 ```
 on the **root project** file!
 
+if it can't run in the root project, use:
+```
+python -m streamlit run app/app.py
+```
+inside (venv) path
+
 It will show a **Local URL**, and can be accessed.
 ![run app](assets/runApp_streamlit_local.png)
 
