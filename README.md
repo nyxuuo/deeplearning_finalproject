@@ -68,7 +68,7 @@ The notebook `model.ipynb` includes:
 - Loss comparison (training & validation via forward pass)
 
 To view more detail, see the code:  
-📄 **model.ipynb**
+📄 **[model.ipynb](model.ipynb)**
 
 ---
 
@@ -98,7 +98,7 @@ deeplearning_finalproject/
 │
 └── model.ipynb
 ```
-
+![file_structure](assets/file_structure_googlecolab.png)
 
 
 Then, run the app by launching the app.py (or preferably app.ipynb, and execute all cell), include installing cloudfare & running the streamlit:
@@ -117,7 +117,7 @@ After running the tunnel, it will show a link to access the streamlit app (usual
 
 ### **RUN ON LOCAL**
 
-###**1. CLONE REPO**
+###  **1. CLONE REPO**
 ```
 git clone https://github.com/nyxuuo/deeplearning_finalproject.git
 cd deeplearning_finalproject
@@ -127,10 +127,10 @@ or clone using Github Desktop
 
 ### **2. Make Virtual Env and Install dependencies**
 ```
-pip install streamlit torch transformers
+pip install streamlit torch transformers streamlit pandas numpy skicit-learn matplotlib seaborn tqdm
 ```
 
-or install from file: **requirements.txt**
+or a way more recommended way is to install from file: **[requirements.txt](requirements.txt)**
 
 ## **3. Download MODEL from Google Drive**
 [Click here to download the model](https://drive.google.com/drive/folders/1-_lgZsWNAplRe4scNaO6M1VHPd1mWBHp?usp=sharing)
@@ -160,14 +160,23 @@ deeplearning_finalproject/
 ...and the model name should be the same (don't edit the model name!)
 
 ## **4. Check & adjust the path in app/app.py**
+The path should be like this if ran locally:
+![path adjustment](assets/adjust_path.png)
 
 ### **5. Run the app**
-Run the app by doing:
+Run the app by running
 ``` 
 streamlit run app/app.py
 ```
+on the **root project** file!
 
 It will show a **Local URL**, and can be accessed.
+![run app](assets/runApp_streamlit_local.png)
 
+---
+## 🎥 Short App Demo
+![Demo GIf](assets/short_demo.gif)
 
-
+---
+## 🎬 Full Video & App Demonstration
+[Demo App](https://drive.google.com/drive/folders/1qVa1L8_-RXb919c04XzT7pF-TYnnpRDs?usp=sharing)
