@@ -13,7 +13,7 @@ This project aims to **predict mental health categories from user-written text**
 - **RoBERTa-base**
 
 The app classifies text into **7 mental health condition labels**:
-
+```
 0: "Normal"
 1: "Depression"
 2: "Suicidal"
@@ -21,7 +21,7 @@ The app classifies text into **7 mental health condition labels**:
 4: "Bipolar"
 5: "Stress"
 6: "Personality Disorder"
-
+```
 This project includes **dataset preprocessing**, **model training**, **evaluation**, and a **streamlit web app (ran locally or on cloudfare in google colab)**.
 
 
@@ -77,6 +77,7 @@ To view more detail, see the code:
 
 ### **FOR GOOGLE COLAB**
 ‼️ **PLEASE ENSURE THE FILE STRUCTURE IS AS BELOW:**
+```
 deeplearning_finalproject/
 │
 ├── app/
@@ -96,7 +97,7 @@ deeplearning_finalproject/
 │   └── mental_health_dataset_augmented.csv
 │
 └── model.ipynb
-
+```
 
 
 
@@ -135,7 +136,7 @@ or install from file: **requirements.txt**
 [Click here to download the model](https://drive.google.com/drive/folders/1-_lgZsWNAplRe4scNaO6M1VHPd1mWBHp?usp=sharing)
 
 ‼️ **IMPORTANT:** File structure must be made like this:
-
+```
 deeplearning_finalproject/
 │
 ├── app/
@@ -155,7 +156,7 @@ deeplearning_finalproject/
 │   └── mental_health_dataset_augmented.csv
 │
 └── model.ipynb
-
+```
 ...and the model name should be the same (don't edit the model name!)
 
 ## **4. Check & adjust the path in app/app.py**
