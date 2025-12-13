@@ -19,7 +19,7 @@ label_map = {
 }
 
 def load_model(model_name):
-    base_path = "/content/drive/MyDrive/FINPRO_DEEPLEARNING/model"
+    base_path = "./model/"
 
     models = {
         "distilbert": f"{base_path}/distilbert_trained",
