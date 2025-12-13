@@ -179,4 +179,4 @@ It will show a **Local URL**, and can be accessed.
 
 ---
 ## 🎬 Full Video & App Demonstration
-![Demo App](https://drive.google.com/drive/folders/1qVa1L8_-RXb919c04XzT7pF-TYnnpRDs?usp=sharing)
+[Demo App](https://drive.google.com/drive/folders/1qVa1L8_-RXb919c04XzT7pF-TYnnpRDs?usp=sharing)
