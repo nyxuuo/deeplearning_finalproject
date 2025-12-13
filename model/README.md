@@ -1,8 +1,8 @@
 # Trained Models for Mental Health Text Classification
 
 ---
-## !! The google drive folder for the stored model can be accessed through this link:
-[models_link](https://drive.google.com/drive/folders/1-_lgZsWNAplRe4scNaO6M1VHPd1mWBHp?usp=sharing)
+## **‼️ The google drive folder for the stored model can be accessed through this link (as the file size is too big):**
+[MODEL LINK](https://drive.google.com/drive/folders/1-_lgZsWNAplRe4scNaO6M1VHPd1mWBHp?usp=sharing)
 ---
 
 
@@ -12,17 +12,17 @@ This folder contains the **fine-tuned Transformer models** used in the final pro
 🔹 **BERT-base** — `/bert_trained`  
 🔹 **RoBERTa-base** — `/roberta_trained`
 
-All models were fine-tuned using the *mental_health_dataset_augmented.csv* dataset for **7-class mental health classification**:
+All models were fine-tuned using the *mental_health_dataset_augmented.csv* dataset for **7 mental health labels classification**:
 
-| Label ID | Mental Health Category   |
-|---------|---------------------------|
-|    0    | Depression                |
-|    1    | Anxiety                   |
-|    2    | Stress                    |
-|    3    | Loneliness                |
-|    4    | Suicidal Ideation         |
-|    5    | Well-being Low            |
-|    6    | Normal                    |
+```
+0: "Normal",
+1: "Depression",
+2: "Suicidal",
+3: "Anxiety",
+4: "Bipolar",
+5: "Stress",
+6: "Personality Disorder"
+```
 
 ---
 
@@ -102,6 +102,6 @@ These models are fine-tuned versions of:
 - BERT: *bert-base-uncased*
 - RoBERTa: *roberta-base*
 
-Original models from 👉 https://huggingface.co
+Original models from https://huggingface.co
 
 ---
