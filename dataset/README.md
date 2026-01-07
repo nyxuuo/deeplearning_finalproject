@@ -29,7 +29,8 @@ The dataset is used to fine-tune and evaluate Transformer-based models, includin
 3. Place the downloaded files inside this `dataset/` directory before running the code.
 
 Example directory structure:
-
+```
 dataset/
-├── mental_health_dataset_augmented.csv
-├── README.md
+ ├──  mental_health_dataset_augmented.csv
+ ├── README.md
+```
