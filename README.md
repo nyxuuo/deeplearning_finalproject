@@ -52,6 +52,33 @@ This project was built to:
 - Often achieves the highest accuracy 
 - Most robust among the other 3
 
+---
+
+## Dataset Overview
+
+The dataset used in this project is located externally on Google Drive and is not included directly in this repository.
+
+🔗 **Dataset Access Link:**  
+[https://drive.google.com/drive/folders/1WFwNkBf3vp8r4-0HuUbgXnxXZAL2pHko?usp=sharing](https://drive.google.com/drive/folders/1WFwNkBf3vp8r4-0HuUbgXnxXZAL2pHko?usp=sharing)
+
+
+### How to Use the Dataset
+
+1. Download the dataset (**"mental_health_dataset_augmented.csv"**) from the Google Drive link.
+2. Extract and place the files into the `dataset/` folder.
+3. Ensure the dataset structure matches the expected format in the code.
+
+---
+
+### Dataset Usage
+
+The dataset is used for:
+- Fine-tuning pretrained Transformer models
+- Comparing model performance (BERT, DistilBERT, RoBERTa)
+- Evaluating classification metrics 
+
+---
+
 
 ## 🧪 Model Training & Evaluation
 
